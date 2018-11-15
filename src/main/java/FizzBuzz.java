@@ -1,7 +1,10 @@
 public class FizzBuzz {
-    public int convertNumber(int number) {
+    public String convertNumber(int number) {
+        if (number == 3) {
+            return "Fizz";
+        }
 
-        return number;
+        return Integer.toString(number);
 
     }
 
