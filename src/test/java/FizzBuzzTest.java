@@ -40,4 +40,14 @@ public class FizzBuzzTest {
         Assert.assertEquals("Buzz", fizzBuzz.convertNumber(10));
     }
 
+    @Test
+    public void convertNumber_15_returnsFizzBuzz() {
+        Assert.assertEquals("FizzBuzz", fizzBuzz.convertNumber(15));
+    }
+
+    @Test
+    public void convertNumber_30_returnsFizzBuzz() {
+        Assert.assertEquals("FizzBuzz", fizzBuzz.convertNumber(30));
+    }
+
 }
